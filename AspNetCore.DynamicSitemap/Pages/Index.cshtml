@@ -4,139 +4,26 @@
     ViewData["Title"] = "Dynamic Sitemap Generator Demo";
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>AstroHoraZ SEO Toolkit</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Production-ready multilingual XML sitemap generator built with ASP.NET Core (.NET 8). SEO-optimized, dynamic, and performance-focused.">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            margin: 0;
-            background: #0f172a;
-            color: #f1f5f9;
-        }
+<div class="text-center">
+    <h1 class="display-4">ASP.NET Core Dynamic Sitemap Generator</h1>
+    <p>
+        Production-ready multilingual sitemap solution built with .NET 8.
+    </p>
 
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 60px 20px;
-        }
+    <hr />
 
-        h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-        }
+    <p><strong>Available Endpoints:</strong></p>
 
-        h2 {
-            margin-top: 50px;
-            font-size: 26px;
-        }
+    <p>
+        <a href="/sitemap.xml">/sitemap.xml</a><br />
+        <a href="/sitemap-en.xml">/sitemap-en.xml</a><br />
+        <a href="/sitemap-hi.xml">/sitemap-hi.xml</a><br />
+        <a href="/sitemap-index.xml">/sitemap-index.xml</a>
+    </p>
 
-        p {
-            line-height: 1.7;
-            color: #cbd5e1;
-        }
+    <hr />
 
-        .badge {
-            display: inline-block;
-            background: #22c55e;
-            color: #000;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-
-        ul {
-            line-height: 1.8;
-            color: #cbd5e1;
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 20px;
-            background: #3b82f6;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: 600;
-        }
-
-        .footer {
-            margin-top: 60px;
-            font-size: 14px;
-            color: #94a3b8;
-        }
-
-        a {
-            color: #38bdf8;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <span class="badge">.NET 8 • SEO • Multilingual</span>
-        <h1>AstroHoraZ SEO Toolkit</h1>
-        <p>
-            A production-ready multilingual XML sitemap generator built with ASP.NET Core (.NET 8).
-            Designed for performance-focused, SEO-optimized modern web applications.
-        </p>
-
-        <a class="btn" href="https://github.com/AstroHoraZ/AstroHoraZ.SeoToolkit" target="_blank">
-            View Source Code on GitHub
-        </a>
-
-        <h2>🚀 Features</h2>
-        <ul>
-            <li>Dynamic XML sitemap generation</li>
-            <li>Multilingual support (e.g., /en, /hi)</li>
-            <li>Sitemap index support</li>
-            <li>SEO-compliant structure</li>
-            <li>Configurable Base URL</li>
-            <li>Lightweight & performance-first architecture</li>
-        </ul>
-
-        <h2>📌 Available Endpoints</h2>
-        <ul>
-            <li>/sitemap.xml</li>
-            <li>/sitemap-en.xml</li>
-            <li>/sitemap-hi.xml</li>
-            <li>/sitemap-index.xml</li>
-        </ul>
-
-        <h2>⚙ Configuration</h2>
-        <p>
-            Set your Base URL inside <strong>appsettings.json</strong>:
-        </p>
-        <pre style="background:#1e293b;padding:15px;border-radius:8px;color:#38bdf8;">
-"AppSettings": {
-  "BaseUrl": "https://www.yourdomain.com"
-}
-    </pre>
-        <h2>🔗 Related Links</h2>
-        <ul>
-            <li>
-                <a href="https://github.com/AstroHoraZ/AstroHoraZ.SeoToolkit" target="_blank">
-                    GitHub Repository (Source Code)
-                </a>
-            </li>
-            <li>
-                <a href="https://www.astrohoraz.com" target="_blank">
-                    AstroHoraZ.com
-                </a>
-            </li>
-        </ul>
-
-        <div class="footer">
-            © 2026 AstroHoraZ – Open source SEO tools built for performance, scalability, and modern search visibility.
-        </div>
-    </div>
-
-</body>
-</html>
+    <p>
+        Built using <strong>AstroHoraZ.SeoToolkit.DynamicSitemap</strong>
+    </p>
+</div>
