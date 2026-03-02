@@ -1,5 +1,4 @@
 # AstroHoraZ.SeoToolkit
-# AstroHoraZ.SeoToolkit
 
 Production-ready multilingual XML sitemap generator built with ASP.NET Core (.NET 8).
 
